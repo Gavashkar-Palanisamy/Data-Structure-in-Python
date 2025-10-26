@@ -1,0 +1,22 @@
+Python Control Flow :
+Title: Create List in python
+
+Concept:
+Lists are ordered and mutable collections.
+They can contain mixed data types (string, integer, float, etc.).
+Created using square brackets [].
+
+Tech used :
+Language : pyhton
+Compiler : Visual Studio Code
+
+Logic Flow:
+friends stores multiple values inside brackets.
+print(friends) outputs the entire list.
+
+Input :
+friends = ['suriya', 'yazhi', 'sangeetha', 1, 5]
+print(friends)
+
+Output :
+['suriya', 'yazhi', 'sangeetha', 1, 5]
