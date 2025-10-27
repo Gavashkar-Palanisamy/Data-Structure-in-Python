@@ -1,0 +1,29 @@
+Python Control Flow :
+Title: Remove element from list
+
+Concept:
+The `remove()` method deletes the **first matching value** in a list.  
+It modifies the list **in place** (no new list is created).  
+If the value is not found, it raises a **ValueError**.
+
+Using pop(index) :
+Removes the element at a specific index.
+Returns the removed value.
+If no index is given → removes the last element by default.
+
+Using del statement :
+Deletes an element (or slice of elements) at a specific index.
+Does not return anything.
+Can also delete multiple elements at once using slicing.
+
+Tech used :
+Language : pyhton
+Compiler : Visual Studio Code
+
+Logic Flow:
+1. Define a list with several integer elements.
+2. Display the list before removing an element.
+3. Use `list.remove(value)` to delete the specific element by its value.
+4. Use `list.pop(index)` to delete the specific element by using index.
+5. Use `del list(index)` to delete the specific element by using del function.
+6. Display the list after removal to verify the change.
