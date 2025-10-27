@@ -1,0 +1,16 @@
+Python Control Flow :
+Title: Tuple Conversion to list
+
+Concept:
+Tuples are immutable — their elements cannot be modified once defined.
+To modify or perform operations like append, remove, etc., we can convert a tuple into a list using the list() function.
+This helps in situations where we need flexibility (mutable data).
+
+Tech used :
+Language : pyhton
+Compiler : Visual Studio Code
+
+Logic Flow:
+list(tpl_1) takes each element of the tuple and stores it in a new list.
+The data type of the result becomes <class 'list'>.
+You can now modify this list freely (add, remove, or change elements).
