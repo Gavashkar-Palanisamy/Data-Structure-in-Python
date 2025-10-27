@@ -1,0 +1,30 @@
+Python Control Flow :
+Title: Largest of three numbers
+
+Concept:
+List comprehension is a compact way to create lists in Python.
+Instead of writing multiple lines using for loops and append(), you can generate a new list in one line.
+It’s faster and improves code readability.
+
+Tech used :
+Language : pyhton
+Compiler : Visual Studio Code
+
+Logic Flow:
+new_list = [expression for item in iterable if condition]
+expression → value or operation you want to store in the list
+item → each element from the iterable (like list, tuple, etc.)
+condition → optional filter to include only certain elements
+
+Input :
+# List Comprehension Example
+lst_1 = [1, 2, 3, 4, 5, 6, 7, 66, 8, 9, 94]
+
+# Extract only even numbers
+even = [i for i in lst_1 if i % 2 == 0]
+
+Output :
+[1, 2, 3, 4, 5, 6, 7, 66, 8, 9, 94]
+
+
+print(even)
