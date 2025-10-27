@@ -1,0 +1,36 @@
+Python Control Flow :
+Title: Dictionary functions
+
+Concept:
+You can loop through:
+dic.keys() → only keys
+dic.values() → only values
+dic.items() → both keys and values together
+
+Tech used :
+Language : pyhton
+Compiler : Visual Studio Code
+
+Logic Flow:
+.keys() → retrieves all keys
+.values() → retrieves all values
+.items() → returns key–value pairs as tuples, making it easy to loop through both
+
+Input :
+dic_1 = {1: 'suriya', 2: 'yazhi', 3: 'sangeetha'}
+
+Outpu :
+Keys:
+1
+2
+3
+
+Values:
+suriya
+yazhi
+sangeetha
+
+Keys and Values:
+1 : suriya
+2 : yazhi
+3 : sangeetha
