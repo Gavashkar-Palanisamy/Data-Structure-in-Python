@@ -1,0 +1,27 @@
+Python Control Flow :
+Title: Set Fucntions
+
+Concept:
+Python sets come with built-in methods to perform mathematical set operations such as:
+Union (.union() or |) → combines all unique elements from both sets.
+Intersection (.intersection() or &) → returns common elements.
+Difference (.difference() or -) → returns elements present in the first set but not in the second.
+
+Tech used :
+Language : pyhton
+Compiler : Visual Studio Code
+
+Logic Flow:
+Union combines all unique elements.
+Difference returns items that exist only in set_1 (none here since all are in temp).
+Intersection gives the common values between the union and set_3.	
+
+Intput :
+set_1 = {1, 2, 3, 4, 5}
+set_2 = {5, 7, 3, 2, 1, 0}
+set_3 = {5, 7, 8, 9}
+
+Output :
+Union of set_1 & set_2: {0, 1, 2, 3, 4, 5, 7}
+Difference of set_1 and temp: set()
+Intersection of union(temp) and set_3: {5, 7}
