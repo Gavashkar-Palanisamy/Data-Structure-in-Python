@@ -1,0 +1,4 @@
+# list comprehension 
+lst_1=[1,2,3,4,5,6,7,66,8,9,94]
+even=[i for i in lst_1 if i%2==0]
+print(even)
