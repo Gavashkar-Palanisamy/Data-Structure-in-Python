@@ -1,0 +1,23 @@
+Python Control Flow :
+Title: Remove duplicates from list using set
+
+Concept:
+Lists in Python can contain duplicate values.
+Sets automatically eliminate duplicates since they can store only unique elements.
+By converting a list into a set and back into a list, duplicates are removed efficiently.
+
+Tech used :
+Language : pyhton
+Compiler : Visual Studio Code
+
+Logic Flow:
+set(lst_1) removes duplicates.
+Converting it back to list(set(lst_1)) gives a clean list with only unique elements.
+The order may change, since sets are unordered.	
+
+Input :
+lst_1 = [1, 2, 3, 4, 5, 32, 4, 2, 2, 3, 4, 9, 0]
+
+Output :
+Original List: [1, 2, 3, 4, 5, 32, 4, 2, 2, 3, 4, 9, 0]
+List after removing duplicates: [32, 1, 2, 3, 4, 5, 0, 9]
